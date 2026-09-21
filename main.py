@@ -1,5 +1,10 @@
 from fastapi import FastAPI
 import random
+from main 
+import somar, subtrair, multiplicar, dividir, eh_par
+import pytest
+
+# Restante do código dos testes...
 
 app = FastAPI()
 
