@@ -1,6 +1,22 @@
-from main import somar, subtrair, multiplicar, dividir, eh_par
 import pytest
 
+# Função unitárias
+def somar(a, b):
+    return a + b
+
+def subtrair(a, b):
+    return a - b
+
+def multiplicar(a, b):
+    return a * b
+
+def dividir(a, b):
+    return a / b
+
+def eh_par(n):
+    return n % 2 == 0
+
+# 5 Testes 
 def test_somar():
     assert somar(2, 3) == 5
 
