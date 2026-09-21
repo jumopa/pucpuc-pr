@@ -1,6 +1,6 @@
+from main import somar, subtrair, multiplicar, dividir, eh_par
 import pytest
 
-# 5 Testes unitários 
 def test_somar():
     assert somar(2, 3) == 5
 
